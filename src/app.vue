@@ -2,7 +2,8 @@
 import NavBar from '/src/components/nav-bar.component.vue'
 
 import Home from '/src/components/home.component.vue'
-import Us from './components/us.component.vue'
+import Product from './components/product.component.vue'
+import Benefits from "./components/benefits.component.vue";
 </script>
 
 <template>
@@ -10,14 +11,12 @@ import Us from './components/us.component.vue'
   <NavBar></NavBar>
 
   <Home></Home>
-  <Us></Us>
+  <Product></Product>
+  <Benefits></Benefits>
 
 </template>
 
 <style scoped>
-.main{
-  width: 100vw;
-  height: 100vh;
-}
+
 
 </style>
