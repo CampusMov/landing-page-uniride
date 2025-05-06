@@ -1,14 +1,17 @@
 <script setup>
 import {ref} from "vue";
 
+
 const options = ref([
-  { label: "Inicio" },
-  { label: "Producto" },
+  { label: "Home" },
+  { label: "Product" },
   { label: "Beneficios" },
   { label: "Nosotros" },
   { label: "Testimonios" },
   { label: "FAQ" }
-])
+]);
+
+let checkedLanguage = ref(false)
 
 </script>
 
@@ -27,7 +30,9 @@ const options = ref([
       </a>
 
     </template>
-    <template>
+    <template #end>
+      <pv-togglebutton v-model="checkedLanguage" on-label="Español"
+      off-label="English" class="w-36"/>
 
     </template>
 
