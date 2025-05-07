@@ -29,41 +29,41 @@ onUnmounted(() => {
     </div>
     <div class="col-12 md:col-6 flex flex-column gap-3 p-5">
       <div class="flex justify-content-center align-items-center">
-        <h2>What is UniRide?</h2>
+        <h2>{{$t('UniRide.What')}}</h2>
       </div>
       <div class="pr-8 font-bold">
 
-        <p>Discover UniRide, the app that connects students and reduces your daily expenses.</p>
+        <p></p>
       </div>
       <div class="pl-8">
-        <p>Designed for those who are looking for a more intelligent way to mobilize, UNIRIDE is a mobile app that faces the challenges of university transport on three fronts.</p>
+        <p>{{$t('UniRide.Designed')}}</p>
       </div>
       <div class="pr-8 font-bold">
         <ul class="list-inside pl-4">
-          <li><p>Saving.</p></li>
-          <li><p>Security</p></li>
-          <li><p>Community</p></li>
+          <li><p>{{$t('UniRide.Ul1')}}</p></li>
+          <li><p>{{$t('UniRide.Ul2')}}</p></li>
+          <li><p>{{$t('UniRide.Ul3')}}</p></li>
         </ul>
       </div>
     </div>
 
     <div class="col-12 p-5">
       <div class="flex justify-content-center align-items-center">
-        <h2>Challenges we approach</h2>
+        <h2>{{$t('Challenges.desc')}}</h2>
       </div>
 
       <div class="flex justify-content-center align-items-center gap-5 p-5 md:flex-row flex-column">
         <div class="card-challenges flex flex-column p-5 gap-5 align-items-center justify-content-center">
-          <h2 style="color: #525252;">Saving</h2>
-          <p  class="text-center">Sharing trips between students</p>
+          <h2 style="color: #525252;">{{$t('Challenges.1')}}</h2>
+          <p  class="text-center">{{$t('Challenges.1-1')}}</p>
         </div>
         <div class="card-challenges flex flex-column p-5 gap-5 align-items-center justify-content-center">
-          <h2 style="color: #525252">Security</h2>
-          <p  class="text-center">Create a confidence network between colleagues</p>
+          <h2 style="color: #525252">{{$t('Challenges.2')}}</h2>
+          <p  class="text-center">{{$t('Challenges.2-1')}}</p>
         </div>
         <div class="card-challenges flex flex-column p-5 gap-5 align-items-center justify-content-center">
-          <h2 style="color: #525252">Community</h2>
-          <p  class="text-center">Strengthens the connection between students through shared trips and common experiences</p>
+          <h2 style="color: #525252">{{$t('Challenges.3')}}</h2>
+          <p  class="text-center">{{$t('Challenges.3-1')}}</p>
 
         </div>
       </div>

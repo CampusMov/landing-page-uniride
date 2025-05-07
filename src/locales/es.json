@@ -1,0 +1,58 @@
+{
+
+  "NavBar": {
+    "Home": "Inicio",
+    "Product": "Producto",
+    "Benefits": "Beneficios",
+    "About-us": "Sobre Nosotros",
+    "Testimonials": "Testimonios",
+    "FAQ": "Preguntas Frecuentes"
+  },
+  "Home": {
+    "Slogan": "Controla tus gastos y mejora tu experiencia universitaria compartiendo viajes.",
+    "Subtitle": "UniRide, APP móvil de movilidad compartida y ahorro diario para jóvenes universitarios."
+  },
+  "Points": {
+    "1": "Ahorra dinero",
+    "2": "Rutas optimizadas",
+    "3": "Comunidad"
+  },
+  "UniRide": {
+    "What": "¿Qué es UniRide?",
+    "Discover": "Descubre UniRide, la app que conecta estudiantes y reduce tus gastos diarios.",
+    "Designed": "Diseñada para quienes buscan una forma más inteligente de movilizarse, UNIRIDE es una app móvil que enfrenta los desafíos del transporte universitario en tres frentes.",
+    "Ul1": "Ahorro",
+    "Ul2": "Seguridad",
+    "Ul3": "Comunidad"
+  },
+  "Challenges": {
+    "desc": "Desafíos que abordamos",
+    "1": "Ahorro",
+    "1-1": "Compartir viajes entre estudiantes",
+
+    "2": "Seguridad",
+    "2-1": "Crear una red de confianza entre compañeros.",
+
+    "3": "Comunidad",
+    "3-1": "Fortalece la conexión entre estudiantes a través de viajes compartidos y experiencias comunes"
+  },
+
+
+  "Benefits": {
+    "Title": "Beneficios",
+    "Comodity": "Comodidad y Eficiencia",
+    "CDesc": "Experimenta comodidad y eficiencia en cada viaje, adaptado a tus necesidades.",
+
+    "TSaving": "Ahorro de Tiempo",
+    "TSavingDesc": "Optimiza tus rutas diarias y ahorra tiempo valioso.",
+
+    "Networking": "Red de Contactos",
+    "NetworkingDesc": "Conecta con otros estudiantes a través de la movilidad compartida.",
+
+    "Security": "Seguridad y Confiabilidad",
+    "SDesc": "Viaja con confianza, sabiendo que tu seguridad es prioritaria.",
+
+    "Flexibility": "Flexibilidad y Autonomía",
+    "FDesc": "Disfruta de la libertad de elegir tus rutas y horarios de viaje."
+  }
+}

@@ -8,8 +8,8 @@
 
       <div class="md:col-6 col-12 flex flex-column gap-3 justify-content-center align-items-center p-5">
         <h1>UniRide</h1>
-        <h2 class="text-center" >Control your expenses and improve your university experience by sharing trips.</h2>
-        <p class="text-center">UniRide, Mobile APP of shared mobility and daily savings for young university students.</p>
+        <h2 class="text-center" >{{$t('Home.Slogan')}}</h2>
+        <p class="text-center">{{$t('Home.Subtitle')}}</p>
       </div>
 
       <div class="md:col-6 col-12 flex flex-column align-items-center justify-content-center">
@@ -27,17 +27,17 @@
       <div class="skill-container col-12 flex flex-column md:flex-row md:justify-content-around align-items-center p-5 gap-3">
         <div class="flex flex-column align-items-center gap-2">
           <i class="pi pi-wallet text-6xl"></i>
-          <p>Economic savings</p>
+          <p>{{$t('Points.1')}}</p>
 
         </div>
         <div class="flex flex-column align-items-center gap-2 ">
           <i class="pi pi-map text-6xl"></i>
-          <p>Optimized routes</p>
+          <p>{{$t('Points.2')}}</p>
 
         </div>
         <div class="flex flex-column align-items-center gap-2">
           <i class="pi pi-graduation-cap text-6xl"></i>
-          <p>Community</p>
+          <p>{{$t('Points.3')}}</p>
 
         </div>
 

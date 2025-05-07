@@ -5,57 +5,85 @@
 <template>
   <section class="grid p-5">
     <div class="col-12 flex justify-content-center align-items-center">
-      <h2>Benefits</h2>
+      <h2>{{$t('Benefits.Title')}}</h2>
     </div>
 
     <div class="col-12 timeline-container p-1">
 
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h2>Comodidad y Eficiencia</h2>
-          <p>UniRide optimiza las rutas y horarios, permitiendo que los estudiantes lleguen más rápido a sus destinos</p>
+          <h2>{{$t('Benefits.Comodity')}}</h2>
+          <p>{{$t('Benefits.CDesc')}}</p>
         </div>
         <div class="timeline-visual">
-          <div class="yellow-box"></div>
+          <div class="yellow-box">
+            <img src="https://hiraoka.com.pe/media/mageplaza/blog/post/c/o/como-elegir-el-mejor-celular.jpg"
+                  alt="Comodity"
+                 class="lg:w-12 max-h-12rem object-cover rounded-lg align-self-center"
+                 style="border-radius: 8px;"/>
+          </div>
         </div>
       </div>
 
       <div class="timeline-item right">
         <div class="timeline-visual">
-          <div class="yellow-box"></div>
+          <div class="yellow-box">
+            <img src="https://www.managers.org.uk/wp-content/uploads/2020/03/TimeSaving-scaled.jpg"
+                 alt="Time Saving"
+                 class="lg:w-12 max-h-10rem object-cover rounded-lg align-self-center"
+                 style="border-radius: 8px;"/>
+          </div>
         </div>
         <div class="timeline-content">
-          <h2>Ahorro en Transporte</h2>
-          <p>Al compartir los costos del viaje con otros estudiantes, UniRide reduce significativamente los gastos diarios de transporte.</p>
+          <h2>{{$t('Benefits.TSaving')}}</h2>
+          <p>{{$t('Benefits.TSavingDesc')}}</p>
         </div>
       </div>
 
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h2>Conexión entre Estudiantes</h2>
-          <p>UniRide fomenta una comunidad universitaria más conectada, permitiendo que los estudiantes interactúen y compartan experiencias durante sus viajes.</p>
+          <h2>{{$t('Benefits.Networking')}}</h2>
+          <p>{{$t('Benefits.NetworkingDesc')}}</p>
         </div>
         <div class="timeline-visual">
-          <div class="yellow-box"></div>
+          <div class="yellow-box">
+            <img src="https://latamobility.com/wp-content/uploads/2024/02/HOOP-1.png"
+                 alt="Networking"
+                 class="lg:w-12 max-h-12rem object-cover rounded-lg align-self-center"
+                 style="border-radius: 8px;"/>
+          </div>
         </div>
       </div>
 
       <div class="timeline-item right">
         <div class="timeline-visual">
-          <div class="yellow-box"></div>
+          <div class="yellow-box">
+            <img src="https://easylift.pk/wp-content/uploads/2024/02/carpool-safety.jpeg"
+                 alt="Security"
+                 class="lg:w-12 max-h-12rem object-cover rounded-lg align-self-center"
+                 style="border-radius: 8px;"/>
+          </div>
         </div>
         <div class="timeline-content">
-          <h2>Seguridad y Confianza</h2>
-          <p>La verificación con correo institucional (edu) y perfiles validados aseguran que solo estudiantes de confianza utilizan la plataforma.</p>
+          <h2>{{$t('Benefits.Security')}}</h2>
+          <p>{{$t('Benefits.SDesc')}}</p>
         </div>
       </div>
 
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h2>Flexibilidad y Autonomía</h2>
-          <p>Los estudiantes pueden elegir a quién...</p> </div>
+         <h2>{{$t('Benefits.Flexibility')}}</h2>
+          <p>{{$t('Benefits.FDesc')}}</p>
+        </div>
         <div class="timeline-visual">
-          <div class="yellow-box"></div>
+          <div class="yellow-box">
+
+            <img src="https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2024/10/flexible-work-schedules-inc-GettyImages-1468302529.jpg"
+                 alt="Comodity"
+                 class="lg:w-12 max-h-15rem object-cover rounded-lg align-self-center"
+                 style="border-radius: 8px;"/>
+
+          </div>
         </div>
       </div>
 
