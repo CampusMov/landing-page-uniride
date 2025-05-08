@@ -19,31 +19,36 @@
         <div class="btns-call-to-action flex flex-row justify-content-center align-items-center gap-2 p-2 ">
           <img src="../assets/GetItOnGooglePlay_Badge_Web_color_Spanish-LATAM.png" class="h-12 w-6 md:h-4rem" />
           <img src="../assets/download-on-the-app-store.svg" class="h-12 w-6 md:h-4rem" />
-
         </div>
-
       </div>
 
-      <div class="skill-container col-12 flex flex-column md:flex-row md:justify-content-around align-items-center p-5 gap-3">
-        <div class="flex flex-column align-items-center gap-2">
-          <i class="pi pi-wallet text-6xl"></i>
-          <p>{{$t('Points.1')}}</p>
+      <div class="col-12 flex justify-content-center align-items-center">
+
+        <div class="skill-container flex flex-column md:flex-row md:justify-content-around align-items-center p-5 gap-3">
+
+          <div class="flex flex-column align-items-center gap-2">
+            <i class="pi pi-wallet text-6xl"></i>
+            <p>{{$t('Points.1')}}</p>
+          </div>
+
+          <div class="flex flex-column align-items-center gap-2 ">
+            <i class="pi pi-map text-6xl"></i>
+            <p>{{$t('Points.2')}}</p>
+          </div>
+
+          <div class="flex flex-column align-items-center gap-2">
+            <i class="pi pi-graduation-cap text-6xl"></i>
+            <p>{{$t('Points.3')}}</p>
+          </div>
 
         </div>
-        <div class="flex flex-column align-items-center gap-2 ">
-          <i class="pi pi-map text-6xl"></i>
-          <p>{{$t('Points.2')}}</p>
-
-        </div>
-        <div class="flex flex-column align-items-center gap-2">
-          <i class="pi pi-graduation-cap text-6xl"></i>
-          <p>{{$t('Points.3')}}</p>
-
-        </div>
-
       </div>
+
+
 
     </div>
+
+
   </section>
 
 
@@ -54,6 +59,7 @@
 .skill-container {
   width: 100%;
   max-height: 100%;
+  max-width: 72.5rem;
   min-height: 13.25rem;
   border-radius: 1rem;
   background: #FFD166;
