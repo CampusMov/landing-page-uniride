@@ -54,5 +54,28 @@
 
     "Flexibility": "Flexibility and Autonomy",
     "FDesc": "Enjoy the freedom to choose your routes and travel schedule."
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Have questions?",
+    "description": "Here we answer your most frequently asked questions.",
+    "questions": {
+      "whoCanUse": {
+        "question": "Who can use UniRide?",
+        "answer": "Only university students with an institutional email (.edu) can register and use the app."
+      },
+      "howToCoordinate": {
+        "question": "How are rides coordinated?",
+        "answer": "You register your schedule, the times you need to arrive on time, and the pickup location. The app will show you available rides, and you can choose the one that suits you best."
+      },
+      "isItSafe": {
+        "question": "Is it safe to travel with strangers?",
+        "answer": "Completely safe, as all users are verified university students, and you can view their contact information."
+      },
+      "whereToDownload": {
+        "question": "Where can I download the app?",
+        "answer": "Available on Google Play and the App Store."
+      }
+    }
   }
 }
