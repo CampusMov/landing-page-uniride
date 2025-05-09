@@ -19,6 +19,7 @@ createApp(app)
     .use(i18n)
     .component("pv-menubar",Menubar)
     .component("pv-togglebutton",ToggleButton)
+    .component("pv-select-button",SelectButton)
     .mount('#app')
 
 
