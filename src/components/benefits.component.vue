@@ -98,6 +98,9 @@
 h2{
   color: #05B295;
 }
+p{
+  color:#264653;
+}
 .timeline-container {
   position: relative;
   width: 80%; /* Adjust as needed */

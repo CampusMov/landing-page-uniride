@@ -32,7 +32,7 @@
           </div>
 
           <div class="flex flex-column align-items-center gap-2 ">
-            <i class="pi pi-map text-6xl"></i>
+            <i class="pi pi-map text-6xl "></i>
             <p>{{$t('Points.2')}}</p>
           </div>
 
