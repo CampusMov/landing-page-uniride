@@ -7,6 +7,7 @@ import Benefits from "./components/benefits.component.vue";
 import FooterComponent from "./public/components/footer.component.vue";
 
 import FAQ from "./components/faq.component.vue";
+import AboutUs from "./components/about-us.component.vue";
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import FAQ from "./components/faq.component.vue";
   <Home></Home>
   <Product></Product>
   <Benefits></Benefits>
+  <AboutUs/>
 
   <FAQ></FAQ>
 
