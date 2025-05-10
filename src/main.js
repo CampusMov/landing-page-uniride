@@ -8,9 +8,11 @@ import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura'
 import Menubar from 'primevue/menubar';
 import ToggleButton from 'primevue/togglebutton';
+import Timeline from 'primevue/timeline';
 
 import 'primeflex/primeflex.css'
 import {SelectButton} from "primevue";
+
 
 createApp(app)
     .use(PrimeVue,{ripple:true,
@@ -18,6 +20,7 @@ createApp(app)
         }})
     .use(i18n)
     .component("pv-menubar",Menubar)
+    .component("pv-timeline",Timeline)
     .component("pv-togglebutton",ToggleButton)
     .component("pv-select-button",SelectButton)
     .mount('#app')
