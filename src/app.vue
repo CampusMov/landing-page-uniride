@@ -12,6 +12,7 @@ import FAQ from "./components/faq.component.vue";
 <template>
 
   <NavBar></NavBar>
+  <div class="spacer"/>
 
   <Home></Home>
   <Product></Product>
@@ -26,5 +27,8 @@ import FAQ from "./components/faq.component.vue";
 </template>
 
 <style scoped>
+.spacer{
+  height: 100px;
+}
 
 </style>
