@@ -38,22 +38,28 @@
   },
 
 
-  "Benefits": {
-    "Title": "Benefits",
-    "Comodity": "Comodity and Efficiency",
-    "CDesc": "Experience comfort and efficiency in every trip, tailored to your needs.",
+  "benefits": {
+    "title": "Benefits",
 
-    "TSaving": "Time Saving",
-    "TSavingDesc": "Optimize your daily routes and save valuable time.",
+    "subTitle1": "Savings on",
+    "subTitle2": "Transportation",
+    "paragraph1": "By sharing travel costs with other students, UniRide significantly reduces daily transportation expenses.",
 
-    "Networking": "Networking",
-    "NetworkingDesc": "Build connections with fellow students through shared mobility.",
+    "subTitle3": "Comfort and",
+    "subTitle4": "Efficiency",
+    "paragraph2": "UniRide optimizes routes and schedules, allowing students to reach their destinations faster.",
 
-    "Security": "Security and Reliability",
-    "SDesc": "Travel with confidence, knowing your safety is prioritized.",
+    "subTitle5": "Safety and",
+    "subTitle6": "Trust",
+    "paragraph3": "Verification with institutional emails (.edu) and validated profiles ensures that only trusted students use the platform.",
 
-    "Flexibility": "Flexibility and Autonomy",
-    "FDesc": "Enjoy the freedom to choose your routes and travel schedule."
+    "subTitle7": "Connection between",
+    "subTitle8": "Students",
+    "paragraph4": "UniRide fosters a more connected university community, allowing students to interact and share experiences during their trips.",
+
+    "subTitle9": "Flexibility and",
+    "subTitle10": "Autonomy",
+    "paragraph5": "Students can choose who to travel with, negotiating routes and schedules, which gives them more freedom compared to other forms of transportation."
   },
   "faq": {
     "title": "FAQ",

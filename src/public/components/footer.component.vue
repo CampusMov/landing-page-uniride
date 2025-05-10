@@ -7,7 +7,7 @@ export default {
 <template>
   <footer class="footer">
     <h1 class="footer-title">UniRide</h1>
-    <div class="links-container">
+    <div class="links-container md:flex-row">
       <a href="#" class="footer-link">YouTube</a>
       <a href="mailto:example@uniride.com" class="footer-link">E-mail</a>
       <a href="#" class="footer-link">Instagram</a>
@@ -23,6 +23,8 @@ export default {
 
 <style scoped>
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #facc15; /* bg-yellow-400 */
   padding: 1.5rem 0;
   border-radius: 1rem;
@@ -38,9 +40,10 @@ export default {
 
 .links-container {
   display: flex;
+  flex-direction: column;
   margin-left: 40%;
   margin-right: 40%;
-  flex-direction: row;
+
   align-items: center;
   gap: 2rem;
   font-weight: 600;

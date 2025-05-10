@@ -1,20 +1,24 @@
 <script setup>
-import {ref} from "vue";
+import {computed, ref} from "vue";
 import LanguageSwitcher from "../public/components/language-switcher.component.vue";
 
-const options = ref([
-  { label: "Inicio" },
-  { label: "Producto" },
-  { label: "Beneficios" },
-  { label: "Nosotros" },
-  { label: "Testimonios" },
-  { label: "FAQ" }
-])
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+
+
+const options = computed(() => [
+  { label: t("NavBar.Home"), anchor: "home" },
+  { label: t("NavBar.Product"), anchor: "product" },
+  { label: t("NavBar.Benefits"), anchor: "benefits" },
+  { label: t("NavBar.About-us"), anchor: "plans" },
+  { label: t("NavBar.Testimonials"), anchor: "videos" },
+  { label: t("NavBar.FAQ"), anchor: "videos" }
+]);
 
 </script>
 
 <template>
-  <pv-menubar :model="options">
+  <pv-menubar class="navbar" :model="options">
     <template #start>
       <img
           src="https://raw.githubusercontent.com/CampusMov/Report/refs/heads/feature/style-guidelines-%26-information-architecture/assets/product-design/general%20styles/Logo.png"
@@ -37,5 +41,12 @@ const options = ref([
 </template>
 
 <style scoped>
+.navbar{
+  position: fixed;
+  //top: 100px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 </style>
