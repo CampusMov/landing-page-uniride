@@ -1,0 +1,81 @@
+{
+  "NavBar": {
+    "Home": "Home",
+    "Product": "Product",
+    "Benefits": "Benefits",
+    "About-us": "About Us",
+    "Testimonials": "Testimonials",
+    "FAQ": "FAQ"
+
+  },
+  "Home": {
+    "Slogan": "Control your expenses and improve your university experience by sharing trips.",
+    "Subtitle": "UniRide, Mobile APP of shared mobility and daily savings for young university students."
+  },
+  "Points": {
+    "1": "Save money",
+    "2": "Optimized routes",
+    "3": "Community"
+  },
+  "UniRide": {
+    "What": "What is UniRide?",
+    "Discover": "Discover UniRide, the app that connects students and reduces your daily expenses.",
+    "Designed": "Designed for those who are looking for a more intelligent way to mobilize, UNIRIDE is a mobile app that faces the challenges of university transport on three fronts.",
+    "Ul1": "Saving",
+    "Ul2": "Security",
+    "Ul3": "Community"
+  },
+  "Challenges": {
+    "desc": "Challenges we approach",
+    "1": "Saving",
+    "1-1": "Sharing trips between students",
+
+    "2": "Security",
+    "2-1": "Create a confidence network between colleagues.",
+
+    "3": "Community",
+    "3-1": "Strengthens the connection between students through shared trips and common experiences"
+  },
+
+
+  "Benefits": {
+    "Title": "Benefits",
+    "Comodity": "Comodity and Efficiency",
+    "CDesc": "Experience comfort and efficiency in every trip, tailored to your needs.",
+
+    "TSaving": "Time Saving",
+    "TSavingDesc": "Optimize your daily routes and save valuable time.",
+
+    "Networking": "Networking",
+    "NetworkingDesc": "Build connections with fellow students through shared mobility.",
+
+    "Security": "Security and Reliability",
+    "SDesc": "Travel with confidence, knowing your safety is prioritized.",
+
+    "Flexibility": "Flexibility and Autonomy",
+    "FDesc": "Enjoy the freedom to choose your routes and travel schedule."
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Have questions?",
+    "description": "Here we answer your most frequently asked questions.",
+    "questions": {
+      "whoCanUse": {
+        "question": "Who can use UniRide?",
+        "answer": "Only university students with an institutional email (.edu) can register and use the app."
+      },
+      "howToCoordinate": {
+        "question": "How are rides coordinated?",
+        "answer": "You register your schedule, the times you need to arrive on time, and the pickup location. The app will show you available rides, and you can choose the one that suits you best."
+      },
+      "isItSafe": {
+        "question": "Is it safe to travel with strangers?",
+        "answer": "Completely safe, as all users are verified university students, and you can view their contact information."
+      },
+      "whereToDownload": {
+        "question": "Where can I download the app?",
+        "answer": "Available on Google Play and the App Store."
+      }
+    }
+  }
+}

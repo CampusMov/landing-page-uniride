@@ -1,5 +1,6 @@
 <script setup>
 import {ref} from "vue";
+import LanguageSwitcher from "../public/components/language-switcher.component.vue";
 
 const options = ref([
   { label: "Inicio" },
@@ -16,9 +17,9 @@ const options = ref([
   <pv-menubar :model="options">
     <template #start>
       <img
-          src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/66/d1/4066d1a4-847f-199e-db83-223ae43c9d36/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/1200x600wa.png"
+          src="https://raw.githubusercontent.com/CampusMov/Report/refs/heads/feature/style-guidelines-%26-information-architecture/assets/product-design/general%20styles/Logo.png"
           alt="logo"
-          style="width: 100px">
+          style="width: 4rem;height: 4rem;border-radius:20px">
     </template>
 
     <template #options = "{option,props,hasSubmenu,root}">
@@ -27,8 +28,8 @@ const options = ref([
       </a>
 
     </template>
-    <template>
-
+    <template #end>
+    <language-switcher/>
     </template>
 
   </pv-menubar>
