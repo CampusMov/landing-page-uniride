@@ -45,7 +45,6 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #0f0f0f;
   padding: 3rem 5%;
   color: #ffffff;
   flex-wrap: wrap;
@@ -53,7 +52,9 @@ export default {
 
 .faq-left {
   max-width: 35%;
+
 }
+
 
 .faq-subtitle {
   font-size: 1.5rem;
@@ -74,7 +75,7 @@ export default {
 .faq-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #d1d5db;
+  color: #00c9a7;
   text-align: center;
   margin-bottom: 1.5rem;
 }
