@@ -3,52 +3,50 @@
 </script>
 
 <template>
-  <section class="home p-5">
-    <div class="grid">
 
-      <div class="md:col-6 col-12 flex flex-column gap-3 justify-content-center align-items-center p-5">
-        <h1>UniRide</h1>
-        <h2 class="text-center" >{{$t('Home.Slogan')}}</h2>
-        <p class="text-center">{{$t('Home.Subtitle')}}</p>
+  <section class="flex flex-column p-3 w-full gap-3 ">
+    <div class="  flex flex-column  justify-content-center align-items-center">
+
+      <div class=" flex md:flex-row flex-column flex-wrap md:w-10 justify-content-center align-items-center">
+        <div class="flex flex-column justify-content-center align-items-center gap-3 p-5 md:w-30rem">
+          <h1>UniRide</h1>
+          <h2 class="text-center" >{{$t("Home.Slogan")}}</h2>
+          <p class="text-center">{{$t("Home.Subtitle")}}</p>
+        </div>
+
+        <div class="flex flex-column align-items-center justify-content-center">
+          <div class="phone">
+            <div class="pantalla"></div>
+          </div>
+          <div class="btns-call-to-action flex md:flex-row flex-column justify-content-center align-items-center gap-2 p-2 md: w-22rem ">
+            <img src="../assets/GetItOnGooglePlay_Badge_Web_color_Spanish-LATAM.png" class="w-full md:w-auto h-auto max-w-10rem"/>
+            <img src="../assets/download-on-the-app-store.svg" class="w-full md:w-auto h-auto max-w-10rem"/>
+          </div>
+        </div>
+
       </div>
 
-      <div class="md:col-6 col-12 flex flex-column align-items-center justify-content-center">
-        <div class="phone">
-          <div class="pantalla"></div>
-        </div>
-        <div class="btns-call-to-action flex flex-row justify-content-center align-items-center gap-2 p-2 ">
-          <img src="../assets/GetItOnGooglePlay_Badge_Web_color_Spanish-LATAM.png" class="h-12 w-6 md:h-4rem" />
-          <img src="../assets/download-on-the-app-store.svg" class="h-12 w-6 md:h-4rem" />
-        </div>
-      </div>
-
-      <div class="col-12 flex justify-content-center align-items-center">
+      <div class="flex justify-content-center align-items-center w-12">
 
         <div class="skill-container flex flex-column md:flex-row md:justify-content-around align-items-center p-5 gap-3">
-
           <div class="flex flex-column align-items-center gap-2">
             <i class="pi pi-wallet text-6xl"></i>
-            <p>{{$t('Points.1')}}</p>
+            <p style="font-weight: bold">{{$t("Points.1")}}</p>
           </div>
 
           <div class="flex flex-column align-items-center gap-2 ">
-            <i class="pi pi-map text-6xl "></i>
-            <p>{{$t('Points.2')}}</p>
+            <i class="pi pi-map text-6xl"></i>
+            <p style="font-weight: bold">{{$t("Points.2")}}</p>
           </div>
 
           <div class="flex flex-column align-items-center gap-2">
             <i class="pi pi-graduation-cap text-6xl"></i>
-            <p>{{$t('Points.3')}}</p>
+            <p style="font-weight: bold">{{$t("Points.3")}}</p>
           </div>
 
         </div>
       </div>
-
-
-
     </div>
-
-
   </section>
 
 

@@ -5,7 +5,7 @@ import Home from '/src/components/home.component.vue'
 import Product from './components/product.component.vue'
 import Benefits from "./components/benefits.component.vue";
 import FooterComponent from "./public/components/footer.component.vue";
-import AboutUs from "./components/about-us.component.vue";
+
 import FAQ from "./components/faq.component.vue";
 </script>
 
@@ -16,7 +16,7 @@ import FAQ from "./components/faq.component.vue";
   <Home></Home>
   <Product></Product>
   <Benefits></Benefits>
-  <AboutUs></AboutUs>
+
   <FAQ></FAQ>
 
 
@@ -26,6 +26,5 @@ import FAQ from "./components/faq.component.vue";
 </template>
 
 <style scoped>
-
 
 </style>

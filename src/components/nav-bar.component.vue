@@ -1,15 +1,19 @@
 <script setup>
-import {ref} from "vue";
+import {computed, ref} from "vue";
 import LanguageSwitcher from "../public/components/language-switcher.component.vue";
 
-const options = ref([
-  { label: "Inicio" },
-  { label: "Producto" },
-  { label: "Beneficios" },
-  { label: "Nosotros" },
-  { label: "Testimonios" },
-  { label: "FAQ" }
-])
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+
+
+const options = computed(() => [
+  { label: t("NavBar.Home"), anchor: "home" },
+  { label: t("NavBar.Product"), anchor: "product" },
+  { label: t("NavBar.Benefits"), anchor: "benefits" },
+  { label: t("NavBar.About-us"), anchor: "plans" },
+  { label: t("NavBar.Testimonials"), anchor: "videos" },
+  { label: t("NavBar.FAQ"), anchor: "videos" }
+]);
 
 </script>
 
