@@ -18,7 +18,7 @@ const options = computed(() => [
 </script>
 
 <template>
-  <pv-menubar :model="options">
+  <pv-menubar class="navbar" :model="options">
     <template #start>
       <img
           src="https://raw.githubusercontent.com/CampusMov/Report/refs/heads/feature/style-guidelines-%26-information-architecture/assets/product-design/general%20styles/Logo.png"
@@ -41,5 +41,12 @@ const options = computed(() => [
 </template>
 
 <style scoped>
+.navbar{
+  position: fixed;
+  //top: 100px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 </style>
