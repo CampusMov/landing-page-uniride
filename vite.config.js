@@ -5,4 +5,5 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   darkMode: false,
   plugins: [vue()],
+  base: "https://campusmov.github.io/landing-page-uniride/",
 })
